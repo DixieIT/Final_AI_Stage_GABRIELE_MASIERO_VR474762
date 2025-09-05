@@ -6,15 +6,12 @@ The project focuses on **Multi-Agent Reinforcement Learning (MARL)** experiments
 ---
 
 ## 📂 Repository Structure
-Final_AI_Stage_GABRIELE_MASIERO_VR474762/
-│
-├── BenchMARL/ # Cloned submodule or vendored copy of BenchMARL
-│ └── benchmarl/conf/ # Hydra YAML configs (algorithms, tasks, experiments)
-│
-├── outputs/ # Generated logs/results
-├── requirements.txt # Final list of Python dependencies
-├── run_experiment.py # Entry point to run experiments
-└── README.md # Project description
+- `BenchMARL/` → Cloned submodule or vendored copy of BenchMARL  
+  - `benchmarl/conf/` → Hydra YAML configs (algorithms, tasks, experiments)
+- `outputs/` → Generated logs/results (ignored in git)  
+- `requirements.txt` → Final list of Python dependencies  
+- `run_experiment.py` → Entry point to run experiments  
+- `README.md` → Project description
 
 ---
 
