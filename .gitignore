@@ -1,0 +1,20 @@
+# Virtual env
+.venv/
+*.pyc
+__pycache__/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Logs & outputs
+outputs/
+hydra_outputs/
+wandb/
+*.log
+*.ckpt
+*.pth
+
+# OS stuff
+.DS_Store
+Thumbs.db
